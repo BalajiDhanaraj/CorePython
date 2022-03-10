@@ -129,7 +129,7 @@ print(len(t))
 
 """ SWAPPING THE TWO VALUES IN PYTHON"""
 
-A = 2
+A = 6
 B = 3
 
 A,B = B,A
