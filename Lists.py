@@ -118,3 +118,21 @@ print("Earth" in planets)
 
 print("sun" not in planets)
 
+## TUPLES is like a list, but its immutable , we cant change the value or append the value
+
+t = (2,3,5)
+
+print(t[1]) ##index function will work, but not append and no changes
+
+print(len(t))
+
+
+""" SWAPPING THE TWO VALUES IN PYTHON"""
+
+A = 2
+B = 3
+
+A,B = B,A
+
+print(A,B)
+
