@@ -97,9 +97,17 @@ for sp in planets:
         print(sp)
 print(sp)
 
+"""Example of count neg number"""
 
+def count_negative_num(nums):
+    ng=0
+    for num in nums:
+        if num<0:
+            ng = ng+1
+    return ng
 
-
+pr = count_negative_num([-1,-2,-3,-4,5])
+print(pr)
 
 
 
