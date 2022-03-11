@@ -9,4 +9,4 @@ for loop in list:
 def function(self):
     print('the fun',self)
 
-function(4)
+function(5)
