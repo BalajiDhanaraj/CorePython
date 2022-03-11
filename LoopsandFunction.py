@@ -1,12 +1,36 @@
 
 #Loops in python ----> for, rangees
 
-list = [2,2,43,534,545,63,63,67,]
+""" Loops is used to repeatedly execute code"""
 
-for loop in list:
-    print(loop)
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+for planet in planets:
+    print(planet, end=' ') # end is used to print in same line
 
-def function(self):
-    print('the fun',self)
+##mutliple using for loops
 
-function(5)
+tables = (1,2,3,4,5,6,7,8,9,10)
+
+for count in range(1,11):
+    for tab in tables:
+        total = count*tab
+        print(count,"*",tab,"=",total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
