@@ -7,4 +7,6 @@ for loop in list:
     print(loop)
 
 def function(self):
-    print(jon)
+    print('the fun',self)
+
+function(4)
