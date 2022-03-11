@@ -1,2 +1,2 @@
 
-#Loops in python ----> for,
+#Loops in python ----> for, rangees
