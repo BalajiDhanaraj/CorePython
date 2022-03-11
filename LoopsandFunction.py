@@ -65,7 +65,37 @@ print("outer loops \n",j)
 
 """List comprehensions"""
 
+squares = [n**2 for n in range(10)]
 
+print(squares)
+"""---another way to do the list comprehension---"""
+sq = []
+
+for __n in range(10):
+    sq.append(__n**2)
+
+print(sq)
+
+print("\n")
+
+"""" use the if condition in the list comprehension"""
+
+short_planet= [pl## we in list , pl variable is use to append the value in the list
+               for pl in planets ## planets have the list of data like ---"earth,venus"
+               if len(pl)<6
+               ] ## if condition is to check the
+
+
+print(short_planet)
+
+print("\n")
+
+sp =[]
+
+for sp in planets:
+    if len(sp)<8:
+        print(sp)
+print(sp)
 
 
 
