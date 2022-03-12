@@ -68,9 +68,14 @@ print('/'.join([month,day,year]))
 
 print('🐍'.join([world.upper() for world in course ]))
 
+""" string format using + operator """
 
+position = 9
+print(planet+" you\' always be the "+ str(position)+" the planet to me")
 
+""" another way to using the format {}"""
 
+print("{},you'll always be the {}th planet to me".format(planet,position))
 
 
 
