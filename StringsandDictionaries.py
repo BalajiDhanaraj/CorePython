@@ -103,11 +103,32 @@ print(d)
 
 """ Dictionaries """
 
+number = {'one':1,'two':2,'three':3}
+
+print(number['one'])
 
 
+""" in Dictionaries we can able to add the new data with key or value both way can add or changes"""
 
+number['eleven'] = 11
+print(number)
 
+""" dictionary also have the comprehension with same syntax similar to the list"""
 
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+
+planet_to_initial ={planet:planet[0]
+                    for planet in planets}
+
+print(planet_to_initial,sep='')
+
+""" in operator """
+print('Saturn' in planet_to_initial)
+
+""" a for loop over a dictionary will loop over ist keys """
+
+for k in number:
+    print("{}={}".format(k,number[k]))
 
 
 
