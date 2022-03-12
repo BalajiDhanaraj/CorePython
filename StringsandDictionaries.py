@@ -130,7 +130,17 @@ print('Saturn' in planet_to_initial)
 for k in number:
     print("{}={}".format(k,number[k]))
 
+""" sorting dic """
 
+print(sorted(planet_to_initial))
+print('-'.join(sorted(planet_to_initial)))
+
+"""" the very useful \n dict.items \n  methods lets us iterate over the 
+keys and values
+"""
+### rjust is attribute for right side, ljust is attribute for left side
+for planeti, initial in planet_to_initial.items():
+    print("{} begins with \"{}\"".format(planeti.ljust(20),initial))
 
 
 
