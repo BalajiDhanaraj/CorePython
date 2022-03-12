@@ -78,6 +78,35 @@ print(planet+" you\' always be the "+ str(position)+" the planet to me")
 print("{},you'll always be the {}th planet to me".format(planet,position))
 
 
+pluto_mass = 1.303 * 10**22
+earth_mass = 5.9722 * 10**24
+population = 52910390
+
+print("{} weighs about{:.2} kilograms ({:.3%} of earth's mass). Its is home to {:,} Plutonians.".format(
+    planet,pluto_mass,pluto_mass/earth_mass,population
+))
+
+"""format using index """
+
+s = """Pluto's a {0}.
+No, it's a {1}.
+{0}!
+{1}!""".format('planet', 'dwarf planet')
+print(s)
+
+d = "Pluto's a{0} \n"\
+    "\n No, it's a {1}." \
+    "\n {0}! " \
+    "\n {1}! ".format('planet','dwarf planet')
+
+print(d)
+
+""" Dictionaries """
+
+
+
+
+
 
 
 
