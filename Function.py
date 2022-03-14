@@ -112,3 +112,61 @@ def grade(x):
         print("Keep try again to score! good work",x)
 
 grade(-36)
+
+"""Lambda function"""
+
+
+x = lambda a : a+10
+
+print(x(5))
+
+## why we using the lambda function, its a anonymous function inside another function
+
+def myfunc(n):
+    return lambda a : a * n
+
+mydoubler = myfunc(10)
+
+print(mydoubler(5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
