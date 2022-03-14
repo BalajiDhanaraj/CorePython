@@ -135,4 +135,16 @@ B = 3
 A,B = B,A
 
 print(A,B)
-#o
+
+
+"""" Set is collection of data which is unordered, unchangeable
+and unindexed, Duplicates is no allowed
+"""
+
+myset = {'apple','vanan','cherry'}
+
+print(myset)
+
+
+diff_data = {11,"apple",True,'a'}
+print(diff_data)
