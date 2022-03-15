@@ -117,13 +117,43 @@ print(next(myiter))
 for x in myiter:
     print(x)
 
+""" python dates """
+
+import  datetime
+
+x = datetime.datetime.now()
+print(x)
+
+print(x.year)
+print(x.strftime("%A"))
 
 
+""" Python Math """
 
+x = min(3,5,6)
+y = max(10,3,6)
 
+print(x)
+print(y)
 
+xy = abs(-7.45)
 
+print(xy)
 
+s = pow(4,3)
+print(s)
+
+import math
+
+xx = math.sqrt(22)
+
+print(xx)
+
+a = math.ceil(1.4)
+b = math.floor(1.4)
+
+print(a)
+print(b)
 
 
 
