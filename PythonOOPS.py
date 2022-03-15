@@ -155,11 +155,36 @@ b = math.floor(1.4)
 print(a)
 print(b)
 
+""" JSON  in python """
+
+import json
+
+## parse conver from json to python
+
+# some JSON:
+x =  '{ "name":"John", "age":30, "city":"New York"}'
+
+y = json.load(x)
+
+print(y["age"])
 
 
+## convert from python to json
 
 
+# a Python object (dict):
+x = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
 
+y = json.dumps(x)
+
+y = json
+
+
+print(y)
 
 
 
