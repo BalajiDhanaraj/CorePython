@@ -92,6 +92,41 @@ print(x2.lastname)
 
 
 
+""" python iterators 
+
+iteraotors is an objext that contains a countable number of values
+
+__iter()__
+
+iterator vs iterable
+
+Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable containers which you can get an iterator from.
+
+All these objects have a iter() method which is used to get an iterator:
+
+"""
+
+mytyple = (34, 43, 234,22)
+
+myiter = iter(mytyple)
+
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+
+for x in myiter:
+    print(x)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
