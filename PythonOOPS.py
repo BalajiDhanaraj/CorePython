@@ -164,28 +164,42 @@ import json
 # some JSON:
 x =  '{ "name":"John", "age":30, "city":"New York"}'
 
-y = json.load(x)
-
-print(y["age"])
+# y = json.load(x)
+#
+# print(y["age"])
 
 
 ## convert from python to json
 
 
 # a Python object (dict):
-x = {
+xz = {
   "name": "John",
   "age": 30,
-  "city": "New York"
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
 }
+yz = json.dumps(xz)
 
-y = json.dumps(x)
+yz= json.dumps(xz,indent=4)
 
-y = json
+yz = json.dumps(xz, indent=10,separators=("."," ="))
 
 
-print(y)
+print(yz)
 
+""" python try and except """
+
+try:
+    print(x)
+except:
+    print("an exception occurred")
 
 
 
