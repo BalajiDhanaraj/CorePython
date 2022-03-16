@@ -66,8 +66,31 @@ f = open("filename.txt","r")
 print(f.readline())
 
 
+""" write to an existing file """
+
+f = open("demo.txt","a")
+
+f.write("now the file has more content")
+f.close()
+
+""" create a new file """
+
+f = open("dem.txt","x") ## x==create a file
 
 
+"""" Delete a file """
 
+import os
+os.remove("demo.txt")
 
+### check if file exist
+
+if os.path.exists("demo.txt"):
+    os.remove("demo.txt")
+else:
+    print("the file does not exist")
+
+""" Delete Folder """
+
+os.rmdir("myfolder")
 
